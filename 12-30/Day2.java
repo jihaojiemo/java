@@ -6,5 +6,5 @@ public class Day2 {
              System.out.print(data[x][y] + ",");
          }
      }
-    }
+     }
 }
