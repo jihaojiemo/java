@@ -14,9 +14,14 @@ public class Test {
         linkedList.addLast(20);
         linkedList.addLast(30);
         linkedList.addLast(40);
+//        linkedList.addindex(8, 1);
         linkedList.display();
-        System.out.println(linkedList.getLength());
-        System.out.println(linkedList.contains(10));
+
+        //linkedList.addindex(2, 1);
+        linkedList.remove(1);
+        linkedList.display();
+        linkedList.removeAllKey(10);
+        linkedList.display();
 
     }
 }
