@@ -97,7 +97,7 @@ public abstract class AbstractJDBCTemplate {
 
         AbstractJDBCTemplate template = new JDBCTemplate1();
         template.execute("select id, name, created_time, modify_time from memo_group");
-        template.execute("delete from memo_group where id= 667");
+        template.execute("insert into memo_group(name,created_time) values ('JDBC组','2019-07-04 11:00:00')");
     }
 }
 
@@ -116,6 +116,6 @@ class JDBCTemplate1 extends AbstractJDBCTemplate {
 
     @Override
     public void handlerResult(Integer value) {
-        System.out.println("更新结果" + value);
+        System.out.println("更新结果" + " " + value);
     }
 }
