@@ -8,20 +8,14 @@ package com.github.jihaojiemo.qrcode;
 public class QrCodeTest {
 
     public static void main(String[] args) throws Exception {
-        // 存放在二维码中的内容
-        String text = "我是小铭";
         // 嵌入二维码的图片路径
-        //String imgPath = "G:/qrCode/dog.jpg";
+        String imgPath = "C:\\Users\\admin\\Desktop\\31d921d262ca0c92b705ed50c9c07d66.jpg";
+        //String imgPath = "C:\\Users\\admin\\Desktop\\2918d47d21591bd9243f0c2a81a8a170.jpg";
         // 生成的二维码的路径及名称
-        String destPath = "E:\\qrcode\\github.jpg";
+        String destPath = "E:\\二维码\\csdn.jpg";
+        //String destPath = "E:\\二维码\\github.jpg";
         //生成二维码
-        //QRCodeUtil.encode("https://blog.csdn.net/qq_43508801", null, destPath, true);
-        QRCodeUtil.encode("https://github.com/jihaojiemo?tab=repositories", null, destPath, true);
-
-        // 解析二维码
-        String str = QRCodeUtil.decode(destPath);
-        // 打印出解析出的内容
-        System.out.println(str);
-
+        QRCodeUtil.encode("https://blog.csdn.net/qq_43508801", imgPath, destPath, true);
+        //QRCodeUtil.encode("https://github.com/jihaojiemo?tab=repositories", imgPath, destPath, true);
     }
 }
