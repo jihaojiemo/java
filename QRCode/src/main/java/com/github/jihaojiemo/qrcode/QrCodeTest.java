@@ -9,7 +9,7 @@ public class QrCodeTest {
 
     public static void main(String[] args) throws Exception {
         // 嵌入二维码的图片路径
-        String imgPath = "C:\\Users\\admin\\Desktop\\31d921d262ca0c92b705ed50c9c07d66.jpg";
+        String imgPath = "C:\\Users\\admin\\Desktop\\timg.jpg";
         //String imgPath = "C:\\Users\\admin\\Desktop\\2918d47d21591bd9243f0c2a81a8a170.jpg";
         // 生成的二维码的路径及名称
         String destPath = "E:\\二维码\\csdn.jpg";
