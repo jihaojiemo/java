@@ -1,4 +1,4 @@
-package com.bittech.method;
+package com.github.jihaojiemo.method;
 
 public class TestSleep {
 

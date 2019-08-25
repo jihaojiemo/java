@@ -1,4 +1,4 @@
-package com.bittech.pattern;
+package com.github.jihaojiemo.pattern;
 
 public class TestWait {
 

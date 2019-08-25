@@ -1,4 +1,4 @@
-package com.bittech.synchronize;
+package com.github.jihaojiemo.synchronize;
 
 /**
  * synchronized锁任意对象

@@ -1,4 +1,4 @@
-package com.bittech.pattern;
+package com.github.jihaojiemo.pattern;
 
 public class TestNotify {
 
@@ -17,6 +17,7 @@ public class TestNotify {
 
         threadWait.start();
         threadWait2.start();
+
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {

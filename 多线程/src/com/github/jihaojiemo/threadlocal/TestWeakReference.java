@@ -1,4 +1,4 @@
-package com.bittech.threadlocal;
+package com.github.jihaojiemo.threadlocal;
 
 import java.lang.ref.WeakReference;
 

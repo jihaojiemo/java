@@ -1,4 +1,4 @@
-package com.bittech.threadpool;
+package com.github.jihaojiemo.threadpool;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.ThreadPoolExecutor;
@@ -11,6 +11,6 @@ import java.util.concurrent.ThreadPoolExecutor;
 public class ExecutorTest {
     public static void main(String[] args) {
         //创建一个线程池对象
-        ExecutorService executorService = new ThreadPoolExecutor();
+        //ExecutorService executorService = new ThreadPoolExecutor();
     }
 }
