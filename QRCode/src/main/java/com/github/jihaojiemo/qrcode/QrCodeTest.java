@@ -9,13 +9,13 @@ public class QrCodeTest {
 
     public static void main(String[] args) throws Exception {
         // 嵌入二维码的图片路径
-        String imgPath = "C:\\Users\\admin\\Desktop\\timg.jpg";
-        //String imgPath = "C:\\Users\\admin\\Desktop\\2918d47d21591bd9243f0c2a81a8a170.jpg";
+        //String imgPath = "C:\\Users\\admin\\Desktop\\QQ图片20190812130025.png";
+        String imgPath = "C:\\Users\\admin\\Desktop\\QQ图片20190812130144.png";
         // 生成的二维码的路径及名称
-        String destPath = "E:\\二维码\\csdn.jpg";
-        //String destPath = "E:\\二维码\\github.jpg";
+        //String destPath = "C:\\Users\\admin\\Desktop\\csdn.jpg";
+        String destPath = "C:\\\\Users\\\\admin\\\\Desktop\\\\github.jpg";
         //生成二维码
-        QRCodeUtil.encode("https://blog.csdn.net/qq_43508801", imgPath, destPath, true);
-        //QRCodeUtil.encode("https://github.com/jihaojiemo?tab=repositories", imgPath, destPath, true);
+        //QRCodeUtil.encode("https://blog.csdn.net/qq_42351880", imgPath, destPath, true);
+        QRCodeUtil.encode("https://github.com/giturtle", imgPath, destPath, true);
     }
 }
