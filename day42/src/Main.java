@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Description:
+ * Description: 计算日期到天数的转换
  * Author: admin
  * Create: 2019-09-01 0:05
  */
